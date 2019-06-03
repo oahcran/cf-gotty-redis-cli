@@ -1,0 +1,11 @@
+---
+applications:
+- name: gotty-redis-cli
+  memory: 128M
+  instances: 1
+  host: gotty-redis-cli
+  path: ./gotty
+  buildpack: binary_buildpack
+  env:
+    GOTTY_USERNAME: user
+    GOTTY_PASSWORD: gotty
