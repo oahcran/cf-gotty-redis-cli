@@ -6,6 +6,7 @@ applications:
   host: gotty-redis-cli
   path: ./gotty
   buildpack: binary_buildpack
+  stack: cflinuxfs3
   env:
     GOTTY_USERNAME: user
     GOTTY_PASSWORD: gotty
