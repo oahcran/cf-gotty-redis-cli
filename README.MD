@@ -45,7 +45,13 @@ for example:
   },
 ```
 
-* Login the Web Interface Terminal
+* Login the Web Interface Terminal, or use [gotty-client](https://github.com/moul/gotty-client) to connect Gotty
+
+for example:
+
+```
+gotty-client https://<GOTTY_USERNAME>:<GOTTY_PASSWORD>@https://gotty-redis-cli.cf.exmaple.com
+```
 
 * Run `redis-cli` to Connect Remote Redis Server
 
